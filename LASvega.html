@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Создание ботов</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+ <body>
+  <div class="topnav">
+    <a class="active" href="#home">Главная</a>
+    <a href="#news">Боты</a>
+    <a href="#contact">Контакты</a>
+  </div>
+
+<center><hr><h1>Главная</h1></center>
+
+<div id="vk_ads_135379"></div>
+<script type="text/javascript">
+  setTimeout(function() {
+    var adsParams = {"ad_unit_id":135379,"ad_unit_hash":"bef8cb9c9cba8d95831725552bd28303"};
+    function vkAdsInit() {
+      VK.Widgets.Ads('vk_ads_135379', {}, adsParams);
+    }
+    if (window.VK && VK.Widgets) {
+      vkAdsInit();
+    } else {
+      if (!window.vkAsyncInitCallbacks) window.vkAsyncInitCallbacks = [];
+      vkAsyncInitCallbacks.push(vkAdsInit);
+      var protocol = ((location.protocol === 'https:') ? 'https:' : 'http:');
+      var adsElem = document.getElementById('vk_ads_135379');
+      var scriptElem = document.createElement('script');
+      scriptElem.type = 'text/javascript';
+      scriptElem.async = true;
+      scriptElem.src = protocol + '//vk.com/js/api/openapi.js?169';
+      adsElem.parentNode.insertBefore(scriptElem, adsElem.nextSibling);
+    }
+  }, 0);
+</script>
+
+ </body>
+</html>
